@@ -75,7 +75,7 @@ namespace PEGASUS.Test
                 {
                     //byte[] sysc = new byte[] { 0xFF, 0xFE, 0xFD, 0xFC };
                     //byte[] data = new byte[] { 0x01 };
-                    ICommandBase comm = new SetRawDataMode();
+                    ICommandBase comm = new GetRawDataMode(1);
                     byte[] datasend = comm.Serialize();
                     com.SendCommand(datasend);
                     //com.OnComReaderReceived += new ComReaderReceived(this._port_DataReceived);
