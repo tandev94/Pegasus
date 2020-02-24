@@ -45,10 +45,13 @@
     <Compile Include="lzru920_u921\CommandBase.cs" />
     <Compile Include="lzru920_u921\Enum\CommandId.cs" />
     <Compile Include="lzru920_u921\Footer.cs" />
+    <Compile Include="lzru920_u921\GetRawDataMode.cs" />
     <Compile Include="lzru920_u921\Header.cs" />
     <Compile Include="lzru920_u921\ICommandBase.cs" />
     <Compile Include="lzru920_u921\ISerializable.cs" />
     <Compile Include="lzru920_u921\Message.cs" />
+    <Compile Include="lzru920_u921\SetRawDataErrorLogReset.cs" />
+    <Compile Include="lzru920_u921\SetRawDataFrameCounterReset.cs" />
     <Compile Include="lzru920_u921\SetRawDataMode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
